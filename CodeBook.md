@@ -76,6 +76,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000      Max.   : 1.0000      Max.   : 1.0000      Max.   : 1.00000   Max.   : 1.00000   Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000  
  
  tBodyGyro-std()-Z tBodyGyroJerk-mean()-X tBodyGyroJerk-mean()-Y tBodyGyroJerk-mean()-Z tBodyGyroJerk-std()-X tBodyGyroJerk-std()-Y tBodyGyroJerk-std()-Z
+ 
  Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.0000       Min.   :-1.0000       Min.   :-1.0000      
  1st Qu.:-0.9850   1st Qu.:-0.11723       1st Qu.:-0.05868       1st Qu.:-0.07936       1st Qu.:-0.9907       1st Qu.:-0.9922       1st Qu.:-0.9926      
  Median :-0.8819   Median :-0.09824       Median :-0.04056       Median :-0.05455       Median :-0.9348       Median :-0.9548       Median :-0.9503      
@@ -84,6 +85,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000   Max.   : 1.00000       Max.   : 1.00000       Max.   : 1.00000       Max.   : 1.0000       Max.   : 1.0000       Max.   : 1.0000  
  
  tBodyAccMag-mean() tBodyAccMag-std() tGravityAccMag-mean() tGravityAccMag-std() tBodyAccJerkMag-mean() tBodyAccJerkMag-std() tBodyGyroMag-mean() tBodyGyroMag-std()
+ 
  Min.   :-1.0000    Min.   :-1.0000   Min.   :-1.0000       Min.   :-1.0000      Min.   :-1.0000        Min.   :-1.0000       Min.   :-1.0000     Min.   :-1.0000   
  1st Qu.:-0.9819    1st Qu.:-0.9822   1st Qu.:-0.9819       1st Qu.:-0.9822      1st Qu.:-0.9896        1st Qu.:-0.9907       1st Qu.:-0.9781     1st Qu.:-0.9775   
  Median :-0.8746    Median :-0.8437   Median :-0.8746       Median :-0.8437      Median :-0.9481        Median :-0.9288       Median :-0.8223     Median :-0.8259   
@@ -92,6 +94,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000    Max.   : 1.0000   Max.   : 1.0000       Max.   : 1.0000      Max.   : 1.0000        Max.   : 1.0000       Max.   : 1.0000     Max.   : 1.0000  
  
  tBodyGyroJerkMag-mean() tBodyGyroJerkMag-std() fBodyAcc-mean()-X fBodyAcc-mean()-Y fBodyAcc-mean()-Z fBodyAcc-std()-X  fBodyAcc-std()-Y   fBodyAcc-std()-Z 
+ 
  Min.   :-1.0000         Min.   :-1.0000        Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000   Min.   :-1.0000  
  1st Qu.:-0.9923         1st Qu.:-0.9922        1st Qu.:-0.9913   1st Qu.:-0.9792   1st Qu.:-0.9832   1st Qu.:-0.9929   1st Qu.:-0.97689   1st Qu.:-0.9780  
  Median :-0.9559         Median :-0.9403        Median :-0.9456   Median :-0.8643   Median :-0.8954   Median :-0.9416   Median :-0.83261   Median :-0.8398  
@@ -100,6 +103,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000         Max.   : 1.0000        Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.00000   Max.   : 1.0000  
  
  fBodyAcc-meanFreq()-X fBodyAcc-meanFreq()-Y fBodyAcc-meanFreq()-Z fBodyAccJerk-mean()-X fBodyAccJerk-mean()-Y fBodyAccJerk-mean()-Z fBodyAccJerk-std()-X
+ 
  Min.   :-1.00000      Min.   :-1.000000     Min.   :-1.00000      Min.   :-1.0000       Min.   :-1.0000       Min.   :-1.0000       Min.   :-1.0000     
  1st Qu.:-0.41878      1st Qu.:-0.144772     1st Qu.:-0.13845      1st Qu.:-0.9912       1st Qu.:-0.9848       1st Qu.:-0.9873       1st Qu.:-0.9920     
  Median :-0.23825      Median : 0.004666     Median : 0.06084      Median :-0.9516       Median :-0.9257       Median :-0.9475       Median :-0.9562     
@@ -108,6 +112,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.00000      Max.   : 1.000000     Max.   : 1.00000      Max.   : 1.0000       Max.   : 1.0000       Max.   : 1.0000       Max.   : 1.0000  
  
  fBodyAccJerk-std()-Y fBodyAccJerk-std()-Z fBodyAccJerk-meanFreq()-X fBodyAccJerk-meanFreq()-Y fBodyAccJerk-meanFreq()-Z fBodyGyro-mean()-X fBodyGyro-mean()-Y
+ 
  Min.   :-1.0000      Min.   :-1.0000      Min.   :-1.00000          Min.   :-1.000000         Min.   :-1.00000          Min.   :-1.0000    Min.   :-1.0000   
  1st Qu.:-0.9865      1st Qu.:-0.9895      1st Qu.:-0.29770          1st Qu.:-0.427951         1st Qu.:-0.33139          1st Qu.:-0.9853    1st Qu.:-0.9847   
  Median :-0.9280      Median :-0.9590      Median :-0.04544          Median :-0.236530         Median :-0.10246          Median :-0.8917    Median :-0.9197   
@@ -116,6 +121,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000      Max.   : 1.0000      Max.   : 1.00000          Max.   : 1.000000         Max.   : 1.00000          Max.   : 1.0000    Max.   : 1.0000 
  
  fBodyGyro-mean()-Z fBodyGyro-std()-X fBodyGyro-std()-Y fBodyGyro-std()-Z fBodyGyro-meanFreq()-X fBodyGyro-meanFreq()-Y fBodyGyro-meanFreq()-Z fBodyAccMag-mean()
+ 
  Min.   :-1.0000    Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.0000   
  1st Qu.:-0.9851    1st Qu.:-0.9881   1st Qu.:-0.9808   1st Qu.:-0.9862   1st Qu.:-0.27189       1st Qu.:-0.36257       1st Qu.:-0.23240       1st Qu.:-0.9847   
  Median :-0.8877    Median :-0.9053   Median :-0.9061   Median :-0.8915   Median :-0.09868       Median :-0.17298       Median :-0.05369       Median :-0.8755   
@@ -124,6 +130,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000    Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.00000       Max.   : 1.00000       Max.   : 1.00000       Max.   : 1.0000 
  
  fBodyAccMag-std() fBodyAccMag-meanFreq() fBodyBodyAccJerkMag-mean() fBodyBodyAccJerkMag-std() fBodyBodyAccJerkMag-meanFreq() fBodyBodyGyroMag-mean()
+ 
  Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.0000            Min.   :-1.0000           Min.   :-1.000000              Min.   :-1.0000        
  1st Qu.:-0.9829   1st Qu.:-0.09663       1st Qu.:-0.9898            1st Qu.:-0.9907           1st Qu.:-0.002959              1st Qu.:-0.9825        
  Median :-0.8547   Median : 0.07026       Median :-0.9290            Median :-0.9255           Median : 0.164180              Median :-0.8756        
@@ -132,6 +139,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  Max.   : 1.0000   Max.   : 1.00000       Max.   : 1.0000            Max.   : 1.0000           Max.   : 1.000000              Max.   : 1.0000  
  
  fBodyAccMag-std() fBodyAccMag-meanFreq() fBodyBodyAccJerkMag-mean() fBodyBodyAccJerkMag-std() fBodyBodyAccJerkMag-meanFreq() fBodyBodyGyroMag-mean()
+ 
  Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.0000            Min.   :-1.0000           Min.   :-1.000000              Min.   :-1.0000        
  1st Qu.:-0.9829   1st Qu.:-0.09663       1st Qu.:-0.9898            1st Qu.:-0.9907           1st Qu.:-0.002959              1st Qu.:-0.9825        
  Median :-0.8547   Median : 0.07026       Median :-0.9290            Median :-0.9255           Median : 0.164180              Median :-0.8756        
