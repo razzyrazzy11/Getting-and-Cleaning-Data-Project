@@ -48,7 +48,7 @@ A full description of the data is available from the [source](http://archive.ics
 
 It is possible to get result summaries of the data using summary(data.sub):
 
-    subject        activity         tBodyAcc-mean()-X tBodyAcc-mean()-Y  tBodyAcc-mean()-Z  tBodyAcc-std()-X  tBodyAcc-std()-Y   tBodyAcc-std()-Z  tGravityAcc-mean()-X
+subject        activity         tBodyAcc-mean()-X tBodyAcc-mean()-Y  tBodyAcc-mean()-Z  tBodyAcc-std()-X  tBodyAcc-std()-Y   tBodyAcc-std()-Z  tGravityAcc-mean()-X
  Min.   : 1.00   Length:10299       Min.   :-1.0000   Min.   :-1.00000   Min.   :-1.00000   Min.   :-1.0000   Min.   :-1.00000   Min.   :-1.0000   Min.   :-1.0000     
  1st Qu.: 9.00   Class :character   1st Qu.: 0.2626   1st Qu.:-0.02490   1st Qu.:-0.12102   1st Qu.:-0.9924   1st Qu.:-0.97699   1st Qu.:-0.9791   1st Qu.: 0.8117     
  Median :17.00   Mode  :character   Median : 0.2772   Median :-0.01716   Median :-0.10860   Median :-0.9430   Median :-0.83503   Median :-0.8508   Median : 0.9218     
@@ -105,7 +105,7 @@ It is possible to get result summaries of the data using summary(data.sub):
  3rd Qu.:-0.2361      3rd Qu.:-0.5903      3rd Qu.: 0.20447          3rd Qu.: 0.008651         3rd Qu.: 0.09124          3rd Qu.:-0.3837    3rd Qu.:-0.4735   
  Max.   : 1.0000      Max.   : 1.0000      Max.   : 1.00000          Max.   : 1.000000         Max.   : 1.00000          Max.   : 1.0000    Max.   : 1.0000   
  fBodyGyro-mean()-Z fBodyGyro-std()-X fBodyGyro-std()-Y fBodyGyro-std()-Z fBodyGyro-meanFreq()-X fBodyGyro-meanFreq()-Y fBodyGyro-meanFreq()-Z fBodyAccMag-mean()
- Min.   :-1.0000    Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.00000       Min. :-1.0000   
+ Min.   :-1.0000    Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.0000   Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.00000       Min.   :-1.0000   
  1st Qu.:-0.9851    1st Qu.:-0.9881   1st Qu.:-0.9808   1st Qu.:-0.9862   1st Qu.:-0.27189       1st Qu.:-0.36257       1st Qu.:-0.23240       1st Qu.:-0.9847   
  Median :-0.8877    Median :-0.9053   Median :-0.9061   Median :-0.8915   Median :-0.09868       Median :-0.17298       Median :-0.05369       Median :-0.8755   
  Mean   :-0.6442    Mean   :-0.7386   Mean   :-0.6742   Mean   :-0.6904   Mean   :-0.10104       Mean   :-0.17428       Mean   :-0.05139       Mean   :-0.5860   
