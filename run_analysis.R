@@ -1,5 +1,6 @@
 library(magrittr)
 # Reading and converting data
+# Use features.txt to read feature labels
 features <- read.csv('./features.txt', header = FALSE, sep = ' ')
 features <- as.character(features[,2])
 
@@ -25,7 +26,7 @@ mean_std.select <- grep('mean|std', features)
 data_extract <- data.final[,c(1,2,mean_std.select + 2)]
 
 # 3. Use descriptive activity names to name the activities in the data set
-# Use activity_labels.txt to read labels for activities
+# Use activity_labels.txt to read activity labels
 activity_label <- read.table('./activity_labels.txt', header = FALSE)
 activity_label <- as.character(activity_label[,2])
 data_extract$activity <- activity_label[data_extract$activity]
