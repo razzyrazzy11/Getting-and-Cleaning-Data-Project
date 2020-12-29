@@ -29,8 +29,6 @@ data_extract <- data.final[,c(1,2,mean_std.select + 2)]
 activity_label <- read.table('./activity_labels.txt', header = FALSE)
 activity_label <- as.character(activity_label[,2])
 data_extract$activity <- activity_label[data_extract$activity]
-# Use features.txt to read labels for features
-feature_label <- read.table('./features.txt', header = FALSE)
 
 # 4. Appropriately label the data set with descriptive variable names
 variable_name <- names(data_extract)
