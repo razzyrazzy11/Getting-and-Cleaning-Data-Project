@@ -44,7 +44,7 @@ Using: names(data.sub)
 
 ## The Data
 
-A full description of the data is available from the [source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The full data can be obtained from the following zip [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+A full description of the data is available from the [source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The full data can be obtained from the following zip [file](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 It is possible to get result summaries of the data using summary(data.sub):
 
