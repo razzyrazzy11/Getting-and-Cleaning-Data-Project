@@ -1,5 +1,5 @@
 library(magrittr)
-# Reading and converting Data
+# Reading and converting data
 features <- read.csv('./features.txt', header = FALSE, sep = ' ')
 features <- as.character(features[,2])
 
